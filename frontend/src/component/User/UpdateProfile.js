@@ -6,7 +6,7 @@ import FaceIcon from "@material-ui/icons/Face";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, updateProfile, loadUser } from "../../actions/userAction";
 import { useAlert } from "react-alert";
-import { UPDATE_PROFILE_RESET } from "../../constants/userConstatants";
+import { UPDATE_PROFILE_RESET } from "../../constants/userConstants";
 import MetaData from "../layout/MetaData";
 
 const UpdateProfile = ({ history }) => {
